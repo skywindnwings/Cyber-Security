@@ -9,7 +9,7 @@ The files in this repository were used to configure the network depicted below.
 
 
 
-![Network Diagram](Images/ELK-NetworkDiagram.drawio.png)
+![Network Diagram](Diagrams/ELK-NetworkDiagram.drawio.png)
 
 
 
