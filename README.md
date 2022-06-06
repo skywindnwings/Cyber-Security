@@ -56,10 +56,10 @@ The configuration details of each machine may be found below.
 
 The machines on the internal network are not exposed to the public Internet. 
 
-Only the Jumpbox machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses: 49.189.250.115
+Only the Jumpbox machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses: **49.189.250.115**
 
 
-Machines within the network can only be accessed by the Jumpbox private IP address (10.0.0.4).
+Machines within the network can only be accessed by the Jumpbox private IP address: **10.0.0.4**
 
 A summary of the access policies in place can be found in the table below.
 
@@ -110,10 +110,10 @@ These Beats allow us to collect the following information from each machine:
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 
 SSH into the control node and follow the steps below:
-- Copy the install-elk.yml file to ./etc/ansible/.
-- Update the hosts file to include 10.0.0.5 and 10.0.0.6 for webservers, and 
-10.1.0.4 for ELK
-- Run the playbook, and navigate to “http://20.28.147.134:5601/app/kibana” to check that the installation worked as expected.
+- Copy the ***install-elk.yml*** file to ***./etc/ansible/.***
+- Update the hosts file to include ***10.0.0.5*** and ***10.0.0.6*** for webservers, and 
+***10.1.0.4*** for ELK
+- Run the playbook, and navigate to **“http://20.28.147.134:5601/app/kibana”** to check that the installation worked as expected.
 
 ---
 
@@ -124,15 +124,14 @@ SSH into the control node and follow the steps below:
 ```bash
 sudo apt install docker.io
 ```
--
--
-
 
 
 - Command to update Linux applications:
 ```bash
 apt-get update
 ```
+
+
 
 
 
